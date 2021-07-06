@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    
+}
+h1{
+    text-align: center;
+}
+.todo{
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.todoIn{
+    background: rgba(110, 108, 108, 0.060);
+    border: none;
+    padding: 10px 45px;
+    border-bottom: 1px solid crimson;
+    outline: none;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.addBtn{
+    padding: 10px 20px;
+    position: relative;
+    height: 49px;
+    color: white;
+    border: none;
+    background: crimson;
+    border-radius: 5px;
+}
+.addBtn:hover{
+    background: none;
+    border: 1px solid crimson;
+    color: crimson;
+}
+.list{
+    font-size: 20px;
+}
+.list li{
+    margin: 20px 0;
+    padding: 10px 20px;
+    list-style: none;
+    background: none;
+    border: 1px solid crimson;
+    color: rgb(73, 73, 73);
+    border-radius: 5px;
+}
+.list li a{
+    float: right;
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin: -5px 10px 0 0;
+    background: white;
+    text-decoration: none;
+    color: crimson;
+}
+.list li:hover{
+    background: crimson;
+    color: white;
+    transition: 0.5 ease-in;
+}
+.alert{
+    margin-top: -10px;
+}
+#ll{
+    position: absolute;
+    padding: 12px 10px;
+    font-size: 23px;
+    background: crimson;
+    color: white;
+}
+h1{
+    font-family: ubuntu;
+    color: crimson;
+}
+.up{
+    background-color: tomato;
+}
+.up:hover{
+    border: 1px solid tomato;
+}
+
+@media(max-width: 700px){
+    .addBtn{
+        float: right;
+        margin-top: -49px;
+        margin-right: -3px;
+    }
+    .todoIn{
+        padding-right: 40px;
+    }
+}
